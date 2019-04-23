@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DockerJavaGcpApplication {
 
-  @RequestMapping("/")
+  @RequestMapping("/mehdi")
   public String home() {
     return "Hello Docker Cloud World!";
   }

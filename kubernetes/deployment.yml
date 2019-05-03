@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: v1
 kind: Deployment
 metadata:
   name: demo-service-deployment
@@ -12,6 +12,5 @@ spec:
       containers:
         - name: dockerjavagcp
           image: gcr.io/cognitivebot2/dockerjavagcp
-
           ports:
             - containerPort: 8090

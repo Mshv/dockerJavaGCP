@@ -7,10 +7,11 @@ spec:
   template: # create pods using pod definition in this template
     metadata:
       labels:
-        app: demo-service
+        app: dockerjavagcp
     spec:
       containers:
-        - name: demo-service
-          image: axbarchuk/demo-service
+        - name: dockerjavagcp
+          image: gcr.io/cognitivebot2/dockerjavagcp
+
           ports:
             - containerPort: 8090

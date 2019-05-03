@@ -13,4 +13,4 @@ spec:
         - name: dockerjavagcp
           image: gcr.io/cognitivebot2/dockerjavagcp:tag1
           ports:
-            - containerPort: 8090
+            - containerPort: 8080
